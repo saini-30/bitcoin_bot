@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-telegram-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python bot.py"
+    envVars:
+      - key: 7781487236:AAEeIri2Gy342_GTheWafFEhpX5jVX92DLA
+        value: 7781487236:AAEeIri2Gy342_GTheWafFEhpX5jVX92DLA
